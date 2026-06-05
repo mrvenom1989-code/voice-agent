@@ -78,7 +78,8 @@ function App() {
 
   // Fetch initial database state on page load
   useEffect(() => {
-    fetch('http://localhost:5000/api/db')
+    const backendHttpUrl = import.meta.env.VITE_BACKEND_HTTP_URL || 'http://localhost:5000';
+    fetch(`${backendHttpUrl}/api/db`)
       .then(res => res.json())
       .then(data => setInitialDbState(data))
       .catch(err => console.error('Failed to load initial DB state:', err));
@@ -88,8 +89,9 @@ function App() {
   useEffect(() => {
     let interval = null;
     if (status !== 'connected') {
+      const backendHttpUrl = import.meta.env.VITE_BACKEND_HTTP_URL || 'http://localhost:5000';
       interval = setInterval(() => {
-        fetch('http://localhost:5000/api/db')
+        fetch(`${backendHttpUrl}/api/db`)
           .then(res => res.json())
           .then(data => setInitialDbState(data))
           .catch(err => console.error('Failed to poll DB state:', err));

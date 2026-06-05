@@ -209,7 +209,8 @@ export function useGeminiLive() {
       sourceNode.connect(workletNode);
 
       // 4. Establish proxy WebSocket connection
-      const socket = new WebSocket(`ws://localhost:5000?agent=${agentId}`);
+      const backendWsUrl = import.meta.env.VITE_BACKEND_WS_URL || 'ws://localhost:5000';
+      const socket = new WebSocket(`${backendWsUrl}?agent=${agentId}`);
       // Set binaryType to arraybuffer so audio frames arrive as ArrayBuffer directly.
       // Default 'blob' requires an async .arrayBuffer() conversion which can disorder chunks.
       socket.binaryType = 'arraybuffer';
