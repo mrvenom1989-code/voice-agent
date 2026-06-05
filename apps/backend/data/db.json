@@ -1,0 +1,2659 @@
+{
+  "appointments": [
+    {
+      "name": "Jane Doe",
+      "phone": "555-0199",
+      "date": "2026-06-08",
+      "time": "09:00"
+    },
+    {
+      "name": "Bob Smith",
+      "phone": "555-0144",
+      "date": "2026-06-08",
+      "time": "14:00"
+    },
+    {
+      "name": "Subhash Jain",
+      "phone": "9876543210",
+      "date": "2026-06-08",
+      "time": "11:00"
+    }
+  ],
+  "inventory": [
+    {
+      "name": "Amoxicillin",
+      "quantity": 25,
+      "location": "Aisle 3A",
+      "needsPrescription": true
+    },
+    {
+      "name": "Crocin",
+      "quantity": 40,
+      "location": "Over the Counter",
+      "needsPrescription": false
+    },
+    {
+      "name": "Metformin",
+      "quantity": 15,
+      "location": "Aisle 2B",
+      "needsPrescription": true
+    },
+    {
+      "name": "Atorvastatin",
+      "quantity": 30,
+      "location": "Aisle 1C",
+      "needsPrescription": true
+    },
+    {
+      "name": "Lisinopril",
+      "quantity": 8,
+      "location": "Aisle 2A",
+      "needsPrescription": true
+    },
+    {
+      "name": "Ibuprofen",
+      "quantity": 50,
+      "location": "Over the Counter",
+      "needsPrescription": false
+    },
+    {
+      "name": "Paracetamol",
+      "quantity": 90,
+      "location": "Over the Counter",
+      "needsPrescription": false
+    }
+  ],
+  "doctors": [
+    {
+      "name": "Dr. Sarah Jenkins",
+      "specialty": "General Physician",
+      "hours": "Mon, Wed, Fri: 9:00 AM - 5:00 PM"
+    },
+    {
+      "name": "Dr. Robert Chen",
+      "specialty": "Pediatrician",
+      "hours": "Tue, Thu: 10:00 AM - 6:00 PM"
+    },
+    {
+      "name": "Dr. Emily Taylor",
+      "specialty": "Cardiologist",
+      "hours": "Mon, Thu: 1:00 PM - 5:00 PM"
+    }
+  ],
+  "clinicHours": {
+    "weekdays": "8:00 AM - 6:00 PM",
+    "saturday": "9:00 AM - 2:00 PM",
+    "sunday": "Closed"
+  },
+  "location": "123 Healing Way, Medical District. Free parking is available in the parking garage behind the clinic; please bring your ticket inside for validation.",
+  "repairJobs": [
+    {
+      "id": "TK-101",
+      "name": "Alice Johnson",
+      "phone": "555-9876",
+      "device": "iPhone 13 Pro",
+      "issue": "Cracked Screen",
+      "status": "In Progress",
+      "cost": 150,
+      "date": "2026-06-08",
+      "time": "10:00"
+    },
+    {
+      "id": "TK-102",
+      "name": "David Miller",
+      "phone": "555-8765",
+      "device": "Samsung Galaxy S22",
+      "issue": "Battery Replacement",
+      "status": "Ready for Pickup",
+      "cost": 89,
+      "date": "2026-06-08",
+      "time": "14:00"
+    },
+    {
+      "id": "TK-103",
+      "name": "Sophia Martinez",
+      "phone": "555-7654",
+      "device": "Google Pixel 7",
+      "issue": "Charging Port Fault",
+      "status": "Received",
+      "cost": 75,
+      "date": "2026-06-08",
+      "time": "11:00"
+    }
+  ],
+  "partsInventory": [],
+  "repairPrices": [
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 359,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "OEM Screen Repair",
+      "cost": 659,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "OEM Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 309,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 579,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "OEM Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "LCD Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "OLED Screen Repair",
+      "cost": 299,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "OEM Screen Repair",
+      "cost": 559,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "OEM Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 17",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Iphone Air",
+      "issue": "OLED Screen Repair",
+      "cost": 439,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Iphone Air",
+      "issue": "OEM Screen Repair",
+      "cost": 569,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Iphone Air",
+      "issue": "OEM Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Iphone Air",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 329,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "OEM Screen Repair",
+      "cost": 649,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "OEM Battery Replacement",
+      "cost": 169,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 279,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 549,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "OEM Battery Replacement",
+      "cost": 169,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "LCD Screen Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 219,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "OEM Screen Repair",
+      "cost": 549,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 139,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "Charging Port Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16 Plus",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "LCD Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "OLED Screen Repair",
+      "cost": 209,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "OEM Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 139,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "Charging Port Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "LCD Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "OLED Screen Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "OEM Screen Repair",
+      "cost": 419,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 139,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "Charging Port Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 16e",
+      "issue": "Back Glass Replacement",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "OEM Screen Repair",
+      "cost": 549,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 529,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "LCD Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 219,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "OEM Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "Charging Port Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15 Plus",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "LCD Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "OLED Screen Repair",
+      "cost": 189,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "OEM Screen Repair",
+      "cost": 469,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "OEM Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "Charging Port Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 15",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 189,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "OEM Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "OEM Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 189,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "OEM Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "LCD Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "OEM Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "OEM Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "Charging Port Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14 Plus",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "LCD Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "OEM Screen Repair",
+      "cost": 399,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "OEM Battery Replacement",
+      "cost": 149,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "Charging Port Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 14",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 169,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13",
+      "issue": "LCD Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 13",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Mini",
+      "issue": "LCD Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Mini",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 13 Mini",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 13 Mini",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 169,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 159,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12",
+      "issue": "OLED Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 12",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Mini",
+      "issue": "LCD Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Mini",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 12 Mini",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 12 Mini",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "issue": "OLED Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro Max",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro",
+      "issue": "OLED Screen Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11 Pro",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11",
+      "issue": "OLED Screen Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 11",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 11",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS Max",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS Max",
+      "issue": "OLED Screen Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS Max",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone XS Max",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS Max",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS",
+      "issue": "OLED Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone XS",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XS",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone X",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone X",
+      "issue": "OLED Screen Repair",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone X",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone X",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone X",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XR",
+      "issue": "LCD Screen Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XR",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XR",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone XR",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone XR",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 69,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 8 Plus",
+      "issue": "Charging Port Repair",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8 Plus",
+      "issue": "Back Glass Replacement",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone SE 20/22",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone SE 20/22",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 69,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone SE 20/22",
+      "issue": "Charging Port Repair",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone SE 20/22",
+      "issue": "Back Glass Replacement",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 69,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 8",
+      "issue": "Charging Port Repair",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 8",
+      "issue": "Back Glass Replacement",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 7 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 7 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 69,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 7 Plus",
+      "issue": "Charging Port Repair",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 7",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 7",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 69,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 7",
+      "issue": "Charging Port Repair",
+      "cost": 79,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6s Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6s Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 59,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 6s",
+      "issue": "LCD Screen Repair",
+      "cost": 19,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6s",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6s",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 59,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 6 Plus",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6 Plus",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 59,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "iPhone 6",
+      "issue": "OLED Screen Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "iPhone 6",
+      "issue": "Aftermarket Battery Replacement",
+      "cost": 59,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 349,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26+",
+      "issue": "OLED Screen Repair",
+      "cost": 269,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26+",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26+",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26+",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26",
+      "issue": "OLED Screen Repair",
+      "cost": 249,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S26",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 349,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25+",
+      "issue": "OLED Screen Repair",
+      "cost": 269,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25+",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25+",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25+",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25",
+      "issue": "OLED Screen Repair",
+      "cost": 249,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S25",
+      "issue": "Back Glass Replacement",
+      "cost": 129,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 349,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 439,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24+",
+      "issue": "OLED Screen Repair",
+      "cost": 279,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24+",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24+",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24+",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24",
+      "issue": "OLED Screen Repair",
+      "cost": 249,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 FE",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 FE",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 FE",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S24 FE",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 349,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 439,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23+",
+      "issue": "OLED Screen Repair",
+      "cost": 299,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23+",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23+",
+      "issue": "Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23+",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23",
+      "issue": "OLED Screen Repair",
+      "cost": 249,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23",
+      "issue": "Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 FE",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 FE",
+      "issue": "Charging Port Repair",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 FE",
+      "issue": "Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S23 FE",
+      "issue": "Back Glass Replacement",
+      "cost": 119,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 339,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 389,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22+",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22+",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22+",
+      "issue": "Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22+",
+      "issue": "Back Glass Replacement",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22",
+      "issue": "OLED Screen Repair",
+      "cost": 199,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22",
+      "issue": "Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S22",
+      "issue": "Back Glass Replacement",
+      "cost": 109,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 289,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 339,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21+",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21+",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21+",
+      "issue": "Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21+",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 FE",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 FE",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 FE",
+      "issue": "Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21 FE",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21",
+      "issue": "Charging Port Repair",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21",
+      "issue": "Battery Replacement",
+      "cost": 89,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S21",
+      "issue": "Back Glass Replacement",
+      "cost": 99,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 Ultra",
+      "issue": "OLED Screen Repair",
+      "cost": 269,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 Ultra",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 339,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 Ultra",
+      "issue": "Charging Port Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 Ultra",
+      "issue": "Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 Ultra",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 +",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 +",
+      "issue": "Charging Port Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 +",
+      "issue": "Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 +",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 FE",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 FE",
+      "issue": "Charging Port Repair",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 FE",
+      "issue": "Battery Replacement",
+      "cost": 79,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Samsung Galaxy S20 FE",
+      "issue": "Back Glass Replacement",
+      "cost": 89,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A54",
+      "issue": "OLED Screen Repair",
+      "cost": 249,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A53",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A52",
+      "issue": "OLED Screen Repair",
+      "cost": 209,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A32",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A71",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A51",
+      "issue": "OLED Screen Repair",
+      "cost": 209,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A70",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A50",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A36",
+      "issue": "OLED Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A35",
+      "issue": "OLED Screen Repair",
+      "cost": 199,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A23",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A21",
+      "issue": "OLED Screen Repair",
+      "cost": 169,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A20",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A16",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A15",
+      "issue": "OLED Screen Repair",
+      "cost": 179,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A14",
+      "issue": "OLED Screen Repair",
+      "cost": 149,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A13",
+      "issue": "OLED Screen Repair",
+      "cost": 149,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A12",
+      "issue": "OLED Screen Repair",
+      "cost": 139,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A11",
+      "issue": "OLED Screen Repair",
+      "cost": 139,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A10e",
+      "issue": "OLED Screen Repair",
+      "cost": 139,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy A03s",
+      "issue": "OLED Screen Repair",
+      "cost": 139,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 7",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 989,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 7",
+      "issue": "Charging Port Repair",
+      "cost": 229,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 7",
+      "issue": "OLED Screen Repair",
+      "cost": 389,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 7",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 7",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 6",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 899,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 6",
+      "issue": "Charging Port Repair",
+      "cost": 229,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 6",
+      "issue": "OLED Screen Repair",
+      "cost": 399,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 6",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 6",
+      "issue": "Charging Port Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 5",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 849,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 5",
+      "issue": "Charging Port Repair",
+      "cost": 199,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 5",
+      "issue": "OLED Screen Repair",
+      "cost": 449,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 5",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 5",
+      "issue": "Charging Port Repair",
+      "cost": 179,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 4",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 899,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 4",
+      "issue": "Charging Port Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 4",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 4",
+      "issue": "Charging Port Repair",
+      "cost": 149,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Fold 3",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 799,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 3",
+      "issue": "AMOLED (OCTA) Screen Repair",
+      "cost": 499,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Samsung Galaxy Z Flip 3",
+      "issue": "Charging Port Repair",
+      "cost": 139,
+      "duration": "45 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold",
+      "issue": "OEM Screen Repair (Inner)",
+      "cost": 1099,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold",
+      "issue": "OEM Screen Repair (Outer)",
+      "cost": 289,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro Fold",
+      "issue": "Battery Replacement",
+      "cost": 249,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro XL",
+      "issue": "OEM Screen Repair",
+      "cost": 419,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro XL",
+      "issue": "Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 389,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 10 Pro",
+      "issue": "Battery Replacement",
+      "cost": 169,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 10",
+      "issue": "OEM Screen Repair",
+      "cost": 309,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 10",
+      "issue": "Battery Replacement",
+      "cost": 169,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 9a",
+      "issue": "OEM Screen Repair",
+      "cost": 239,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9a",
+      "issue": "Battery Replacement",
+      "cost": 139,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro Fold",
+      "issue": "OEM Screen Repair (Inner)",
+      "cost": 999,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro Fold",
+      "issue": "OEM Screen Repair (Outer)",
+      "cost": 239,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro Fold",
+      "issue": "Battery Replacement",
+      "cost": 249,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro XL",
+      "issue": "OEM Screen Repair",
+      "cost": 399,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro XL",
+      "issue": "Battery Replacement",
+      "cost": 179,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 279,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9 Pro",
+      "issue": "Battery Replacement",
+      "cost": 169,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 9",
+      "issue": "OEM Screen Repair",
+      "cost": 279,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 9",
+      "issue": "Battery Replacement",
+      "cost": 159,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 8 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 379,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 8 Pro",
+      "issue": "Battery Replacement",
+      "cost": 139,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 8",
+      "issue": "OEM Screen Repair",
+      "cost": 279,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 8",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 8A",
+      "issue": "OEM Screen Repair",
+      "cost": 199,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 8A",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 7 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 339,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 7 Pro",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 7",
+      "issue": "OEM Screen Repair",
+      "cost": 229,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 7",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 7A",
+      "issue": "OEM Screen Repair",
+      "cost": 199,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 7A",
+      "issue": "Battery Replacement",
+      "cost": 109,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 6 Pro",
+      "issue": "OEM Screen Repair",
+      "cost": 349,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 6 Pro",
+      "issue": "Battery Replacement",
+      "cost": 129,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 6",
+      "issue": "OEM Screen Repair",
+      "cost": 209,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 6",
+      "issue": "Battery Replacement",
+      "cost": 119,
+      "duration": "30 minutes"
+    },
+    {
+      "device": "Google Pixel 6A",
+      "issue": "OEM Screen Repair",
+      "cost": 199,
+      "duration": "60 minutes"
+    },
+    {
+      "device": "Google Pixel 6A",
+      "issue": "Battery Replacement",
+      "cost": 99,
+      "duration": "30 minutes"
+    }
+  ],
+  "klinikHours": {
+    "weekdays": "10:00 AM - 7:00 PM",
+    "saturday": "10:00 AM - 7:00 PM",
+    "sunday": "12:00 PM - 5:00 PM"
+  },
+  "klinikLocation": "1407 Mayor Magrath Drive South, Lethbridge, Alberta T1K 2R1. Customer parking is available directly in front of the store.",
+  "klinikContact": {
+    "phone": "+1 587-787-1528",
+    "email": "Lethbridge@mobileklinikfranchise.ca"
+  },
+  "klinikFaqs": [
+    {
+      "topic": "warranty",
+      "question": "What is the warranty policy on repairs?",
+      "answer": "Our repairs typically include a premium lifetime warranty on parts and labor, while battery replacements carry a 1-year warranty. Accidental physical or liquid damage after the repair is excluded."
+    },
+    {
+      "topic": "diagnostics",
+      "question": "Do you charge a diagnostic fee?",
+      "answer": "No, we provide a free diagnostic assessment for your device. We will test its functions and give you an estimate before we perform any repair."
+    },
+    {
+      "topic": "repair_types",
+      "question": "What devices do you repair?",
+      "answer": "We repair Apple iPhones, iPads, Samsung Galaxy phones, Google Pixel, Motorola, game consoles (Xbox/PlayStation), and computers/laptops."
+    },
+    {
+      "topic": "shipping_or_mail_in",
+      "question": "Can I mail my phone in if I can't visit the store?",
+      "answer": "Yes! If you can't make it to our Lethbridge store, we offer a convenient Mail-In service. You can register your repair online and mail it to us."
+    }
+  ],
+  "klinikOffers": [
+    {
+      "title": "Back to School iPhone Sale",
+      "description": "Get a certified pre-owned iPhone 13 Pro Max for only $379 (regularly $629) with plan activation in-store, or outright for $529. Plus get a free Protection Bundle+."
+    },
+    {
+      "title": "Back to School Samsung Sale",
+      "description": "Get a certified pre-owned Samsung Galaxy S22 Ultra for only $199 (regularly $399) with plan activation in-store, or outright for $349. Plus get a free Protection Bundle+."
+    },
+    {
+      "title": "Protect Your Phone On Us",
+      "description": "Buy a certified pre-owned phone or complete any device repair, and get the Protection Bundle+ (case, screen protector, 2 years of $0 screen repairs) completely free."
+    },
+    {
+      "title": "Save 20% on Power Bundles",
+      "description": "Save 20% on charger bundles including home and car chargers, cables, and charging blocks."
+    }
+  ],
+  "sessions": [
+    {
+      "id": "sess_1780684534553_gct4gaslu",
+      "agentId": "pharmacy",
+      "agentName": "Phoebe",
+      "startTime": "2026-06-05T18:35:34.554Z",
+      "endTime": "2026-06-05T18:35:37.571Z",
+      "durationMs": 3017,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780684549972_hxc4504wk",
+      "agentId": "pharmacy",
+      "agentName": "Phoebe",
+      "startTime": "2026-06-05T18:35:49.973Z",
+      "endTime": "2026-06-05T18:35:52.989Z",
+      "durationMs": 3016,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780687528356_15q36xiu0",
+      "agentId": "mobile_klinik",
+      "agentName": "Ryder",
+      "startTime": "2026-06-05T19:25:28.357Z",
+      "endTime": "2026-06-05T19:26:26.906Z",
+      "durationMs": 58549,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780687601189_odnfggxdy",
+      "agentId": "mobile_klinik",
+      "agentName": "Ryder",
+      "startTime": "2026-06-05T19:26:41.190Z",
+      "endTime": "2026-06-05T19:28:12.183Z",
+      "durationMs": 90993,
+      "status": "escalated",
+      "toolCalls": [
+        {
+          "name": "get_repair_price",
+          "timestamp": "2026-06-05T19:27:35.104Z"
+        },
+        {
+          "name": "get_repair_price",
+          "timestamp": "2026-06-05T19:27:51.927Z"
+        },
+        {
+          "name": "handoff_to_human",
+          "timestamp": "2026-06-05T19:28:05.606Z"
+        }
+      ]
+    },
+    {
+      "id": "sess_1780687967517_ljoercntl",
+      "agentId": "mobile_klinik",
+      "agentName": "Ryder",
+      "startTime": "2026-06-05T19:32:47.519Z",
+      "endTime": "2026-06-05T19:34:37.195Z",
+      "durationMs": 109676,
+      "status": "completed",
+      "toolCalls": [
+        {
+          "name": "get_repair_price",
+          "timestamp": "2026-06-05T19:33:16.400Z"
+        }
+      ]
+    },
+    {
+      "id": "sess_1780688141459_extn2541l",
+      "agentId": "clinic",
+      "agentName": "Clara",
+      "startTime": "2026-06-05T19:35:41.460Z",
+      "endTime": "2026-06-05T19:35:53.026Z",
+      "durationMs": 11566,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780688173178_ceg1wznyw",
+      "agentId": "clinic",
+      "agentName": "Clara",
+      "startTime": "2026-06-05T19:36:13.180Z",
+      "endTime": "2026-06-05T19:36:21.235Z",
+      "durationMs": 8055,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780688233292_c8dz08nj9",
+      "agentId": "clinic",
+      "agentName": "Clara",
+      "startTime": "2026-06-05T19:37:13.294Z",
+      "endTime": "2026-06-05T19:37:24.853Z",
+      "durationMs": 11559,
+      "status": "completed",
+      "toolCalls": []
+    }
+  ]
+}

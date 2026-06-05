@@ -1,0 +1,12 @@
+{
+  "name": "aura-voice-receptionist-platform",
+  "version": "1.0.0",
+  "description": "AI-powered voice receptionist platform for clinics and pharmacies",
+  "scripts": {
+    "install:all": "npm install && npm install --prefix apps/backend && npm install --prefix apps/frontend",
+    "start": "concurrently \"npm run dev --prefix apps/backend\" \"npm run dev --prefix apps/frontend\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
