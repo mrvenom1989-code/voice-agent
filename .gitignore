@@ -3,3 +3,5 @@ node_modules/
 *.log
 dist/
 .DS_Store
+session_handoff.md
+agent_learning.md
