@@ -17,6 +17,12 @@
       "phone": "9876543210",
       "date": "2026-06-08",
       "time": "11:00"
+    },
+    {
+      "name": "Test",
+      "phone": "9876543210",
+      "date": "2026-06-08",
+      "time": "10:00"
     }
   ],
   "inventory": [
@@ -2654,6 +2660,35 @@
       "durationMs": 11559,
       "status": "completed",
       "toolCalls": []
+    },
+    {
+      "id": "sess_1780691485960_9dc15nn2m",
+      "agentId": "mobile_klinik",
+      "agentName": "Ryder",
+      "startTime": "2026-06-05T20:31:25.961Z",
+      "endTime": "2026-06-05T20:31:27.835Z",
+      "durationMs": 1874,
+      "status": "completed",
+      "toolCalls": []
+    },
+    {
+      "id": "sess_1780691489624_8873rycr0",
+      "agentId": "clinic",
+      "agentName": "Clara",
+      "startTime": "2026-06-05T20:31:29.625Z",
+      "endTime": "2026-06-05T20:33:16.692Z",
+      "durationMs": 107067,
+      "status": "completed",
+      "toolCalls": [
+        {
+          "name": "get_available_slots",
+          "timestamp": "2026-06-05T20:32:16.217Z"
+        },
+        {
+          "name": "book_appointment",
+          "timestamp": "2026-06-05T20:33:03.770Z"
+        }
+      ]
     }
   ]
 }

@@ -96,6 +96,8 @@ const app = express();
 app.use(cors());
 app.use(express.json());
 
+app.get('/ping', (_req, res) => res.send('ok'));
+
 app.get('/health', async (_req, res) => {
   const db = await readDb();
   res.json({
