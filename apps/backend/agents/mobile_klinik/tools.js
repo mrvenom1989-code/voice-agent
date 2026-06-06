@@ -5,13 +5,14 @@ export const MobileKlinikService = {
     console.log(`[MobileKlinik] getAvailableRepairSlots for date: ${date}`);
     const db = await readDb();
     
-    // Check if Sunday
-    const parsedDate = new Date(date);
-    if (parsedDate.getDay() === 0) {
-      return { status: "Closed", message: "Mobile Klinik is closed on Sundays.", slots: [] };
-    }
+    const [year, month, day] = date.split('-').map(Number);
+    const parsedDate = new Date(year, month - 1, day);
 
-    const allSlots = ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
+    let allSlots = ['09:00', '10:00', '11:00', '12:00', '13:00', '14:00', '15:00', '16:00', '17:00', '18:00'];
+    if (parsedDate.getDay() === 0) {
+      // Sunday slots: 12:00 PM to 5:00 PM
+      allSlots = ['12:00', '13:00', '14:00', '15:00', '16:00', '17:00'];
+    }
     
     const bookedTimes = (db.repairJobs || [])
       .filter(job => job.date === date)

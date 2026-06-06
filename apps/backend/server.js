@@ -14,6 +14,7 @@ import { readDb, writeDb } from './db.js';
 import clinicAgent from './agents/clinic/index.js';
 import pharmacyAgent from './agents/pharmacy/index.js';
 import mobileKlinikAgent from './agents/mobile_klinik/index.js';
+import multilingualAgent from './agents/multilingual/index.js';
 import { sharedTools } from './agents/sharedTools.js';
 
 dotenv.config();
@@ -75,6 +76,16 @@ const AGENT_CONFIGS = {
     tools: mobileKlinikAgent.toolDeclarations,
     toolImplementations: {
       ...mobileKlinikAgent.toolImplementations,
+      ...sharedTools
+    }
+  },
+  multilingual: {
+    name: multilingualAgent.name,
+    voice: multilingualAgent.voice,
+    systemInstruction: multilingualAgent.systemInstruction,
+    tools: multilingualAgent.toolDeclarations,
+    toolImplementations: {
+      ...multilingualAgent.toolImplementations,
       ...sharedTools
     }
   }

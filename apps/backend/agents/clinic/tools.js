@@ -6,7 +6,8 @@ export const ClinicService = {
     const db = await readDb();
     
     // Check if Sunday
-    const parsedDate = new Date(date);
+    const [year, month, day] = date.split('-').map(Number);
+    const parsedDate = new Date(year, month - 1, day);
     if (parsedDate.getDay() === 0) {
       return { status: "Closed", message: "The clinic is closed on Sundays.", slots: [] };
     }

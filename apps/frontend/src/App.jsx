@@ -7,7 +7,7 @@ import { RepairJobsPanel } from './components/RepairJobsPanel';
 import { PartsServicesPanel } from './components/PartsServicesPanel';
 import { TranscriptPanel } from './components/TranscriptPanel';
 import { UtilizationDashboard } from './components/UtilizationDashboard';
-import { Stethoscope, Clock, MapPin, Wrench, Shield, Info, Pill, Smartphone, Sparkles } from 'lucide-react';
+import { Stethoscope, Clock, MapPin, Wrench, Shield, Info, Pill, Smartphone, Sparkles, Globe } from 'lucide-react';
 
 const AGENTS = [
   {
@@ -54,6 +54,21 @@ const AGENTS = [
     accentText: 'text-blue-400',
     bgGlow: 'bg-blue-900/10',
     description: 'Schedule check-in, check repair pricing & order status'
+  },
+  {
+    id: 'multilingual',
+    name: 'Aria (Multilingual)',
+    role: 'Facility Coordinator',
+    icon: Globe,
+    color: 'indigo',
+    themeClass: 'from-indigo-900/10 to-blue-900/10',
+    borderColor: 'border-indigo-500/20',
+    glowColor: 'glow-indigo',
+    brandColor: 'bg-gradient-to-tr from-indigo-600 to-blue-500',
+    hoverBorder: 'hover:border-indigo-500/30 hover:bg-indigo-950/10',
+    accentText: 'text-indigo-400',
+    bgGlow: 'bg-indigo-900/10',
+    description: 'Answers FAQs in English, Hindi & Gujarati'
   }
 ];
 
@@ -143,6 +158,8 @@ function App() {
       message = `Checking parts stock: "${args.device}" - "${args.part}"...`;
     } else if (name === 'get_repair_price') {
       message = `Fetching repair cost: "${args.device}" - "${args.issue}"...`;
+    } else if (name === 'get_facility_info') {
+      message = `Querying facility details for: "${args.facility || 'all'}"...`;
     } else {
       message = `Executing assistant tool: ${name}...`;
     }
@@ -151,8 +168,18 @@ function App() {
       <div className={`w-full bg-slate-900/40 border ${activeAgentInfo.borderColor} rounded-2xl p-4 flex items-center justify-between mb-6 shadow-[0_4px_20px_rgba(255,255,255,0.02)] animate-pulse`}>
         <div className="flex items-center gap-3">
           <span className="flex h-3 w-3 relative">
-            <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${selectedAgent === 'clinic' ? 'bg-purple-400' : selectedAgent === 'pharmacy' ? 'bg-emerald-400' : 'bg-blue-400'} opacity-75`}></span>
-            <span className={`relative inline-flex rounded-full h-3 w-3 ${selectedAgent === 'clinic' ? 'bg-purple-500' : selectedAgent === 'pharmacy' ? 'bg-emerald-500' : 'bg-blue-500'}`}></span>
+            <span className={`animate-ping absolute inline-flex h-full w-full rounded-full ${
+              selectedAgent === 'clinic' ? 'bg-purple-400' :
+              selectedAgent === 'pharmacy' ? 'bg-emerald-400' :
+              selectedAgent === 'multilingual' ? 'bg-indigo-400' :
+              'bg-blue-400'
+            } opacity-75`}></span>
+            <span className={`relative inline-flex rounded-full h-3 w-3 ${
+              selectedAgent === 'clinic' ? 'bg-purple-500' :
+              selectedAgent === 'pharmacy' ? 'bg-emerald-500' :
+              selectedAgent === 'multilingual' ? 'bg-indigo-500' :
+              'bg-blue-500'
+            }`}></span>
           </span>
           <span className="text-sm font-medium text-slate-200 font-mono">{message}</span>
         </div>
@@ -222,12 +249,74 @@ function App() {
           </div>
         </>
       );
+    } else if (selectedAgent === 'multilingual') {
+      return (
+        <>
+          {/* Facility Hours & Locations */}
+          <div className="h-full min-h-0 bg-slate-900/40 rounded-3xl p-6 border border-slate-900/60 overflow-y-auto custom-scrollbar flex flex-col justify-between text-left">
+            <div>
+              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider mb-4">Hospital Profile</h3>
+              <div className="space-y-4">
+                <div className="p-4 bg-slate-950/60 rounded-2xl border border-slate-900">
+                  <p className="text-sm font-bold text-slate-100">RUDRA AYURVED</p>
+                  <p className="text-[10px] text-indigo-400 uppercase font-bold tracking-wider mt-0.5">Multi - Speciality Panchkarma Hospital</p>
+                  
+                  <div className="mt-4 text-xs text-slate-300 space-y-2.5">
+                    <p><span className="text-slate-500 font-mono block text-[10px] uppercase font-bold mb-0.5">Location</span>206, B-Block, 2nd Floor, Olive Greens, Gota, S.G. Highway, Ahmedabad - 382481</p>
+                    <p><span className="text-slate-500 font-mono block text-[10px] uppercase font-bold mb-0.5">Hours</span>Mon-Sat: 10:00 AM - 7:00 PM<br />Sun: 10:00 AM - 2:00 PM</p>
+                    <p><span className="text-slate-500 font-mono block text-[10px] uppercase font-bold mb-0.5">Contact</span>+91 63521 35799 | rudraayurved5@gmail.com</p>
+                    <p><span className="text-slate-500 font-mono block text-[10px] uppercase font-bold mb-0.5">Specialists</span>
+                      <strong className="text-slate-200">Dr. Chirag Raval</strong> (B.A.M.S, CCPT Kerala) - Expert in Pulse Diagnosis (Nadi Pariksha) & Panchakarma therapies for chronic lifestyle disorders.<br />
+                      <strong className="text-slate-200 mt-1 block">Dr. Dipal Raval</strong> (B.H.M.S, P.G.D.C.C, P.G.D.C.T) - Specialist in Hair Repair, Skin Rejuvenation & advanced Clinical Cosmetology.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-4 bg-indigo-950/10 border border-indigo-900/20 rounded-2xl text-xs text-slate-400 font-mono mt-4 leading-normal">
+              <span className="text-[10px] text-indigo-400 block uppercase font-bold mb-1">Grounding Note</span>
+              Aria answers queries about services, hours, locations, and doctors dynamically.
+            </div>
+          </div>
+
+          {/* Multilingual Interaction Panel */}
+          <div className="h-full min-h-0 bg-slate-900/40 rounded-3xl p-6 border border-slate-900/60 overflow-y-auto custom-scrollbar text-left flex flex-col justify-between">
+            <div>
+              <h3 className="text-sm font-bold text-indigo-400 uppercase tracking-wider mb-4">Multilingual Testing Guide</h3>
+              <div className="space-y-4">
+                <div>
+                  <span className="text-[10px] text-slate-500 uppercase tracking-wider font-bold block mb-1">English (EN)</span>
+                  <div className="p-2.5 bg-slate-950/40 rounded-xl border border-slate-900 text-xs text-slate-300 italic">
+                    "Where is Rudra Ayurved located?" or "Who are the specialists at the hospital?"
+                  </div>
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-500 uppercase tracking-wider font-bold block mb-1">Hindi (HI) / हिंदी</span>
+                  <div className="p-2.5 bg-slate-950/40 rounded-xl border border-slate-900 text-xs text-slate-300 italic">
+                    "नमस्ते आरिया, रुद्र आयुर्वेद अस्पताल का पता क्या है?"
+                  </div>
+                </div>
+                <div>
+                  <span className="text-[10px] text-slate-500 uppercase tracking-wider font-bold block mb-1">Gujarati (GU) / ગુજરાતી</span>
+                  <div className="p-2.5 bg-slate-950/40 rounded-xl border border-slate-900 text-xs text-slate-300 italic">
+                    "નમસ્તે આરિયા, રુદ્ર આયુર્વેદના ડોક્ટરો કોણ છે?"
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="p-4 bg-slate-950/40 rounded-2xl border border-slate-900 text-xs text-slate-500 font-mono mt-4 leading-normal">
+              <span className="text-[10px] text-slate-400 block uppercase font-bold mb-1">Pro Tip</span>
+              Aria will reply automatically using correct accents for Hindi and Gujarati!
+            </div>
+          </div>
+        </>
+      );
     }
   };
 
   // Active details
-  const displayHours = selectedAgent === 'mobile_klinik' ? 'Weekdays: 9 AM - 7 PM' : 'Weekdays: 8 AM - 6 PM';
-  const displayLocation = selectedAgent === 'mobile_klinik' ? '456 Tech Boulevard' : '123 Healing Way';
+  const displayHours = selectedAgent === 'mobile_klinik' ? 'Mon-Sat: 10 AM-7 PM, Sun: 12-5 PM' : selectedAgent === 'multilingual' ? 'Mon-Sat: 10 AM-7 PM, Sun: 10 AM-2 PM' : 'Weekdays: 8 AM - 6 PM';
+  const displayLocation = selectedAgent === 'mobile_klinik' ? '456 Tech Boulevard' : selectedAgent === 'multilingual' ? 'Ahmedabad, Gujarat' : '123 Healing Way';
 
   return (
     <div className="min-h-screen bg-slate-950 text-slate-100 flex flex-col font-sans selection:bg-indigo-500/30 selection:text-indigo-200">
